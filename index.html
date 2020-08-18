@@ -15,66 +15,106 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/index.css">
 
 </head>
 <body>
-    <!--comments. The heading h1 is biggest-->
+   
    <div>
     <header>
-        <h1 id="name">KATELYNN HEASLEY</h1>
+
+
+        <h1 id="name">KATELYNN HEASLEY</h1>  
         <!--<h2 id="career">Software Developer</h2>
         <p class="address"><i class="fas fa-map-marker-alt"></i>San Diego, California</p>
-        <p class="btn">Contact Us!</p> -->
-
+        <p class="btn">Contact Us!</p>-->
+     
+       
     </header>
     </div>
 
-    <main>
-        <div id="bio">
-        <p id="career"><i class="fas fa-laptop"></i>Software Developer<br />
-        <!--<p class="address">--><i class="fas fa-map-pin"></i></i>San Diego, California<br />
-        <i class="fas fa-phone-alt"></i><!--<p class="btn">-->Contact Us!</p> <br /> 
-       
+    <nav class="menu">
 
-       
-            <h2 id="b1">BIOGRAPHY</h2>
-            <!--add a paragraph and add text tags that we learned about you-->
+        <a href="index.html">Home</a>
+        <a href="test.html">Test</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+
+
+        <!--<a href="#b1">Biography</a>
+        <a href="#service">Our Services</a>
+        <a href="#wdesign">Web Design</a>
+        <a href="#mobile">Mobile Apps</a>-->
+      </nav>
+
+    <!--using 80% of screen just for main-->
+    <main class="containter">
+    
+       <div class="bio">
+       <div class="icons">
+       <i id="person" class="far fa-user"></i>
+            <h2 id="b1">BIOGRAPHY</h2></div>
+         
             <p id="b2">Katelynn Heasley was born in Guam, USA and grew up in Southern California and Wasilla, Alaksa. She began music at a young age and decided to pursue a professional career as a classical percussionist. She attended <b><a href="https://www.interlochen.org/" target="_blank">Interlochen Arts Academy</a></b> for her high school training and then received her Bachelors from the <b><a href="https://umich.edu/" target="_blank">Univeristy of Michigan</a></b>. From there, she joined the United States Marine Corps and marched in the Marine Band in San Diego, California. </p>
             <p id="b3">After leaving active duty, she returned to collegiate studies to pursue a second bachelors in computer science. She is currently taking classes at <b><a href="https://www.sdmiramar.edu/" target= "_blank">San Diego Miramar College</a></b> in addition to attending a Full-Stack Development program at <b><a href="https://www.sdmiramar.edu/" target= "_blank">San Diego Global University</a></b>. After completing her studies, she hopes to enter the tech community as a Junior Developer.</p>
        </div>
     
-       <div>
-       <h2>Our Services</h2>
+       <div class="service">
+       <div class="icons">
+       <i id="list" class="fas fa-list"></i> 
+       <h2 id="service">Our Services</h2></div>
        
-       <p>Limited 1<sup>st</sup> time client offers! Listed pricing offers of <del><b>$1.99</b></del> now reduced! New low <mark><b>$0.99</b></mark> prices! </p>
-       <p><sub>***</sub><small>See Pricing List to Come</small><sub>***</sub></p>
+            <p id="s1">Limited 1<sup>st</sup> time client offers! Listed pricing offers of <del><b>$1.99</b></del> now reduced! New low <mark><b>$0.99</b></mark> prices! <br >
+            <sub>***</sub><small>See Pricing List to Come</small><sub>***</sub></p>
+
+                <p id="s2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa nobis <mark>highlighted</mark> facere aspernatur et temporibus, <em>TESTING testing</em> numquam ipsa odio totam, ullam modi possimus consequatur adipisci sequi <del>deleted text</del> veniam exercitationem harum quam!</p>
+
+                <p id="s3">Lorem ipsum <sup>test big?</sup> dolor sit amet consectetur adipisicing elit. <sub>little?</sub> Eos culpa nobis facere aspernatur <a href="http://google.com" target="_blank">Go to google</a> et temporibus, reiciendis numquam ipsa odio totam, ullam modi possimus consequatur adipisci sequi veniam exercitationem harum quam!</p>
+                <p id="s4">Lorem ipsum <b>bold text</b> dolor sit amet consectetur adipisicing elit. Eos culpa nobis facere aspernatur et temporibus, reiciendis numquam ipsa odio totam, <i>italics text!</i> ullam modi possimus <small>very tiny</small> consequatur adipisci sequi veniam exercitationem harum quam!</p>
+
        
        </div>
 
-       <div>
-       <h3>Web Design</h3>
-       <i class="logos"></i>
-       <!--Add p here. Use tags that we learned. Ok for lorem text-->
-       <p>This is a sample paragraph about services to be provided. This will contain descriptions about the types of websites and content that will be offered, in addiition to customizable options for greater usability. See list below.</p>
-       <ol>
+       <div class="web">
+       <div class="icons">
+       <i id="laptop" class="fas fa-laptop-code"></i> 
+       <h3 id="wdesign">Web Design</h3></div>
+
+       <ol id="wlist">
            <li><em>Basic Website</li>
            <li>Level Two Customization</li>
            <li>Media/JavaScript/Flash Options</em></li>
        </ol>
+
+                <p id="w1">This is a sample paragraph about services to be provided. This will contain descriptions about the types of websites and content that will be offered, in addiition to customizable options for greater usability. See list below.</p>
+
+                <p id="w2">Lorem ipsum <sup>test big?</sup> dolor sit amet consectetur adipisicing elit. <sub>little?</sub> Eos culpa nobis facere aspernatur <a href="http://google.com" target="_blank">Go to google</a> et temporibus, reiciendis numquam ipsa odio totam, ullam modi possimus consequatur adipisci sequi veniam exercitationem harum quam!</p>
+        
+                <p id="w3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa nobis <mark>highlighted</mark> facere aspernatur et temporibus, <em>TESTING testing</em> numquam ipsa odio totam, ullam modi possimus consequatur adipisci sequi <del>deleted text</del> veniam exercitationem harum quam!</p>
+
       
        </div>
 
-       <div>
-       <h3>Mobile Apps</h3>
-       <i class="fas fa-mobile-alt"></i>
-       <!--Add here all elements-->
-       <p>This area will describe the types of mobile applications I can offer clients. Links will be provided to sample apps I've built, in addition to options for user to browse through.</p>
+       <div class="mobile">
+       <div class="icons">
+        <i id="phone" class="fas fa-mobile-alt"></i>
+       <h3 id="mobile">Mobile Apps</h3></div>
+       
+       
+                <p id="m1">This area will describe the types of mobile applications I can offer clients. Links will be provided to sample apps I've built, in addition to options for user to browse through.</p>
 
-       <i class="fab fa-instagram"></i><h3>Social Media</h3><i class="fab fa-facebook"></i>
-       <!--Add Here as well -->
-       <p>To see sample work and ideas please see my social media and project content at:
-           <ul>
+                <p id="m2">This area will describe the types of mobile applications I can offer clients. Links will be provided to sample apps I've built, in addition to options for user to browse through.</p>
+
+       </div>
+
+      <div class="social">
+      <div class="icons">
+      <i id="facebook" class="fab fa-facebook"></i>
+
+      <h3 id="socialmedia">Social Media</h3></div>
+       
+       <p id="so1">To see sample work and ideas please see my social media and project content at:
+           <ul id="so2">
                <li>GitHub Project Page</li>
                <li>Instagram professionl account</li>
                <li>Additional sample websites</li>
@@ -84,10 +124,24 @@
 
        </div>
 
-       <hr />
+       
     </main>
 
     <footer>
+        <nav class="menu-footer">
+
+            <a href="index.html">Home</a>
+            <a href="test.html">Test</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+    
+    
+            <!--<a href="#b1">Biography</a>
+            <a href="#service">Our Services</a>
+            <a href="#wdesign">Web Design</a>
+            <a href="#mobile">Mobile Apps</a>-->
+          </nav>
+
         <p>Copyright reserved &copy; 2020 Katelynn Heasley</p>
     </footer>
 

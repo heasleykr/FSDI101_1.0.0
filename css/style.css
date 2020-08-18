@@ -1,0 +1,110 @@
+/* Comments */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4,h5,h6{
+    background-color:black;
+    color:yellow;
+    width:300px;  
+}
+
+p{
+    font-size: 14px;
+    font-family: Arial;
+    color:#ad2e2e;   
+}
+        
+/* This is the 'id' calling for html*/
+#second-p{
+    background-color:#000000;
+    color:#123123;
+    font-size: 12px;
+}
+
+h1{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* this is a class calling */
+.btn{
+    background-color:#174269;  
+    color: white;
+    text-align: center;
+}
+
+/*lists*/
+
+ul.ul-1{
+   list-style-type: none; /*takes out bulletpoints, you can change them*/
+   background-color: white;
+   padding-left: 5px;
+   margin-bottom: 1px;
+
+}
+
+/*this modifies a list item within your list!*/
+ul.ul-1 li{
+
+    /*use for header in webpage*/
+    display: inline-block;
+
+    background-color: navy;
+    margin: 1px;
+    padding: 5px;
+    color: white;
+
+    /*can be spaced out on individual lines of code*/
+    border: 5px solid green;
+
+}
+
+/*hover over items*/
+ul.ul-1 li:hover{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+/*utilities*/
+
+.center{
+    text-align: center;
+}
+
+.container-80{
+    width:80%;
+}
+
+/*styling for links!*/
+
+nav {
+    background-color: blue;
+    width: 100%;
+
+    /*means your elements are now flexible*/
+    display: flex; 
+    justify-content: flex-end;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+
+    /*deletes underlines for links*/
+    text-decoration: none;
+
+    padding: 5px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color:#174269;
+}
+
+nav a i{
+    color: white;
+}

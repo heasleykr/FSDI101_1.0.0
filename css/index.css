@@ -1,0 +1,316 @@
+
+/* global */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+
+h2,h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-stretch: wider;
+    color: #117886;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    font-size: 14px;
+}
+
+i{
+    color:  #117886;
+    background-color: #57abb6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /*makes a cirlce background*/
+
+    /*making the icon flexible/movable*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-left: auto;
+    margin-right: auto;  */
+}
+
+.bio,.service,.web,.mobile,.social  {
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+main a {
+    color: #117886;
+    text-decoration: none;
+}
+main a:hover {
+    background-color: #117886;
+    color: white;
+}
+main a:link {
+    color: #117886 40%;
+}
+
+/*utilities*/
+
+.containter{
+    width: 80%;
+
+    /*trick to center elements!*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*header section*/
+header{
+
+    background-image: url(../Images/oceanview.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    color: white;
+    width: 100%;
+    height: 400px;
+   
+
+    /*text-align: justify;*/
+    display: flex;
+    flex-direction: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+#name{
+    font-family: 'Open Sans', sans-serif;
+    font-stretch: wider;
+    text-align: center, top;
+    font-size: 70px;
+    filter: drop-shadow(16px 16px 20px #000000);
+
+}
+
+
+/*#career{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-stretch: wider;
+    color:white;
+    grid-column: 1 / 2;
+    grid-row: 1;
+
+    /*background-image: url(../Images/seafoam.jpg);*/
+    
+    /*border: transparent;
+    border-radius: 0px 4px 2px;
+    box-shadow: 5px -7px teal;*/
+/*
+.address{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    color: #117886;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    font-stretch: wider;
+    color: #117886;
+    grid-column: 1 / 2;
+    grid-row: 2;
+}*/
+
+/*menu*/
+nav.menu{
+    background-image: url(../Images/seafoam2.jpg);
+    /*background-color:  #117886;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    justify-content: space-evenly;
+}
+nav.menu a{
+    color: #41383d;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+nav.menu a:hover{
+    color: white;
+}
+
+/*icons*/
+/* div.icons{
+    
+    font-size: 100%;
+    /* width: 100px;
+    height: 100px; */
+    /*border-radius: 50%;
+
+    /*making the icon flexible/movable*/
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+/* div.design{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} */
+
+
+/*Biography Design*/
+#person{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+#b1{
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+#b2{
+    grid-column: 2 / 2;
+    grid-row: 2;
+    
+}
+#b3{
+    grid-column: 2 / 2;
+    grid-row: 3;   
+}
+
+/*Our Service Design*/
+#list{
+    grid-column: 2 / 2;
+    grid-row: 2;
+}
+#service{
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+#s1{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    
+}
+#s2{
+    grid-column: 1 / 2;
+    grid-row: 3;   
+}
+#s3{
+    grid-column: 1 / 2;
+    grid-row: 4;   
+}
+#s4{
+    grid-column: 1 / 2;
+    grid-row: 5;   
+}
+
+
+/*Web Design*/
+#laptop{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+#wdesign{
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+#wlist{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    
+}
+#w1{
+    grid-column: 2 / 2;
+    grid-row: 2;   
+}
+
+#w2{
+    grid-column: 2 / 2;
+    grid-row: 3;   
+}
+
+#w3{
+    grid-column: 2 / 2;
+    grid-row: 4;   
+}
+
+/*Mobile Design*/
+#phone{
+    grid-column: 2 / 2;
+    grid-row: 2;
+}
+#mobile{
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+#m1{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    
+}
+#m2{
+    grid-column: 1 / 2;
+    grid-row: 3;   
+}
+
+/*Social Design*/
+#facebook{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+#socialmedia {
+    grid-column: 2 / 2;
+    grid-row: 1;
+}
+#so1{
+    grid-column: 2 / 2;
+    grid-row: 2;
+    
+}
+#so2{
+    grid-column: 2 / 2;
+    grid-row: 3;   
+}
+
+/*footer*/
+
+footer{
+    background-image: url(../Images/seafoam2.jpg);
+    font-size: 16px;
+    color: #41383d;
+    text-align: center;
+}
+
+nav.menu-footer{
+    display: flex;
+    justify-content: center;
+}
+
+nav.menu-footer a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
